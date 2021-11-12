@@ -1,11 +1,12 @@
 import React from "react";
+import s from "./Profile.module.css"
 
 const Profile = () => {
   return (
     <>
-      <div className="content">
+      <div className={s.content}>
         <div>
-          <img src="https://i.insider.com/5bfec49248eb12058423acf7?width=1066&format=jpeg" alt="" />
+          <img src="https://media.istockphoto.com/photos/tropical-paradise-landscape-picture-id1033545162?k=20&m=1033545162&s=612x612&w=0&h=ZNemh8RD7XCM7sWrS7NXt-849G4uWON2631eSKQPWMk=" alt="" />
         </div>
         <div>
           ava + description
