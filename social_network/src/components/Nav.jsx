@@ -1,0 +1,17 @@
+import React from 'react';
+
+const NavBar = () => {
+  return(
+    <>
+    <nav className="nav">
+        <div><a>Profile</a></div>
+        <div><a>Message</a></div>
+        <div><a>Newa</a></div>
+        <div><a>Music</a></div>
+        <div><a>Setting</a></div>
+      </nav>
+    </>
+  )
+}
+
+export default NavBar
