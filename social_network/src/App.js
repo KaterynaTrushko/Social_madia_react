@@ -1,7 +1,8 @@
 import React from "react";
-import Header from "./components/Header";
-import NavBar from "./components/Nav";
-import Profile from "./components/Profile";
+import  Header from "./components/Header/Header";
+import NavBar from "./components/Nav/Nav";
+import Profile from "./components/Profile/Profile";
+import Dialogs from "./components/Dialogs/Dialogs";
 import './App.css';
 
 
@@ -10,7 +11,10 @@ function App() {
     <div className="app-wrapper">
       <Header />
       <NavBar />
-      <Profile />         
+      <div className="app-wrapper-content">
+        {/* <Profile />          */}
+        <Dialogs />
+      </div>
     </div>
   )
 }
